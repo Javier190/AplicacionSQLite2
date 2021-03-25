@@ -22,8 +22,9 @@ public class MainActivity3 extends AppCompatActivity {
         textView = (TextView)findViewById(R.id.textView3);
 
 
-        //esta es la variable encargada de recibir el intent de la activity2 y lo hace a traves de la position
+        //Esta es una variable encargada de recibir el intent de la activity2 y lo hace a traves de la position
         recibirnombre = getIntent().getStringExtra("position");
+
 
 
         if(recibirnombre != null){
